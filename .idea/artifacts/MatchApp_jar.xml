@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MatchApp:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MatchApp_jar</output-path>
+    <root id="archive" name="MatchApp.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="MatchApp" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/UsefulThings.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
